@@ -1,0 +1,19 @@
+.navigation__list {
+    margin: 120px 0;
+}
+
+.navigation__list__item {
+    font-family: 'Staatliches', cursive;
+    font-size: 20px;
+    color: #c42172be;
+    text-shadow: 0 0 90px rgba(210, 110, 223, 0.699);
+    list-style-type: none;
+    margin: 30px 50px 20px;
+    font-size: 25px;
+    width: 100px;
+}
+
+.navigation__list__item:hover {
+    color: rgba(248, 244, 248, 0.884);
+    text-shadow: 0 0 50px white;
+}
