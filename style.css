@@ -8,6 +8,18 @@ html {
 
 .body {
     background: url(images/background.png);
-    background-size: 100%;
+    background-size: cover;
+}
 
+.main {
+    margin: 30px 20px;
+}
+
+.footer__copyRight {
+    font-size: 15px;
+    text-align: justify;
+    letter-spacing: 2px;
+    font-family: 'Staatliches', cursive;
+    color: #fafafa93;
+    text-align: center;
 }

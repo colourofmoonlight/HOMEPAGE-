@@ -1,0 +1,66 @@
+.sectionContact {
+    font-family: 'Staatliches', cursive;
+    color: #fafafa;
+    line-height: 2;
+    margin: 70px; 
+}
+
+.sectionContact__container {
+    display: flex;
+    justify-content: center;
+}
+
+.sectionContact__header {
+    font-size: 40px;
+    color: rgba(236, 218, 236, 0.514);
+    text-shadow: 0 0 10px rgba(200, 88, 214, 0.699);
+    letter-spacing: 5px;
+    margin: 5px auto;
+}
+
+.sectionContact__paragraph {
+    font-size: 15px;
+    text-align: justify;
+    text-shadow: 0 0 20px rgb(192, 199, 199);
+    letter-spacing: 2px;
+    margin: 5px auto;
+    padding: 10px 15px 0;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+.sectionContact__github {
+    text-align: center;
+    border: 5px solid #c42173de; 
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(230, 171, 225, 0.781);
+    margin-right: 40px;
+    max-width: 250px;
+    max-height: 200px;
+}
+
+.sectionContact__githubIcon {
+    max-width: 70px;
+    max-height: 70px;
+}
+
+.sectionContact__media {
+    text-align: center;
+    width: 300px;
+    margin: auto 50px;
+}
+
+.sectionContact__icon {
+    max-width: 60px;
+    max-height: 60px;
+    margin: 40px;
+}
+
+.sectionContact__mail {
+    text-align: center;
+    border: 5px solid #c42173de; 
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(230, 171, 225, 0.781);
+    max-width: 250px;
+    max-height: 150px;
+}

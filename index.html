@@ -4,35 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
     <link href="style.css" rel="stylesheet">
     <link href="header.css" rel="stylesheet">
     <link href="navigation.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Russo+One&family=Staatliches&display=swap" rel="stylesheet"></head>
+    <link href="sectionAbout.css" rel="stylesheet">
+    <link href="sectionSkills.css" rel="stylesheet">
+    <link href="sectionContact.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Russo+One&family=Staatliches&display=swap" rel="stylesheet">
+</head>
 
 <body class="body">
+    
     <header class="header">
         <h1 class="header__name">KORNELIA CYGANIK</h1>
     </header>
 
-    <nav class="navigation">
-        <ul class="navigation__list">
-            <li class="navigation__list__item">ABOUT</li>
-            <li class="navigation__list__item">SKILLS</li>
-            <li class="navigation__list__item">HOBBY</li>
-            <li class="navigation__list__item">CONTACT</li>
-        </ul>
-
-    </nav>
-
     <main class="main">
 
+        <nav>
+            <ul class="navigation">
+                <li class="navigation__item"><a class="navigation__link" href="#ABOUT">ABOUT</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#SKILLS">SKILLS</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#CONTACT">CONTACT</a></li>
+            </ul>
+    
+        </nav>
 
+        <section id="ABOUT" class="sectionAbout">
+            <h2 class="sectionAbout__header">ABOUT ME</h2>
+            <div class="sectionAbout__container">
+                <p class="sectionAbout__paragraph">Hi! I'm Kornelia and welcome to my website! You'll find a lot of information about me here that may encourage you to contact me!</p>
+                <p class="sectionAbout__paragraph sectionAbout__paragraph--description">I'm 25 years old and I currently live in Kraków, Poland. I graduated with a Master's Degree in Law, but about one and a half years ago, during this studies, I've started to explore the world of programming and I've decided to become a frontend developer and learn programming on my own. Currently I'm student of frontend developer course at YouCode programming school. Programming is my hobby now and I would like to start earning money from it.</p>
+            </div>
+        </section>
+        
+        <section id="SKILLS" class="sectionSkills">
+            <h2 class="sectionSkills__header">SKILLS</h2>
+            
+            <div class="sectionSkills__container">
+                
+                <div class="sectionSkills__skills">
+                    <p class= "sectionSkills__paragraph">So far, I've learned how to use:</p>
+                    <ul class="sectionSkills__list">
+                        <li class="sectionSkills__list__item">HTML</li>
+                        <li class="sectionSkills__list__item">CSS</li>
+                        <li class="sectionSkills__list__item">BEM, BOX MODEL, GIT, FLEX</li>
+                    </ul>
+                </div>
+                
+                <div class="sectionSkills__skills sectionSkills__skills--right">
+                    <p class= "sectionSkills__paragraph">I am learning intensively:</p>
+                    <ul class="sectionSkills__list">
+                        <li class="sectionSkills__list__item">JavaScript</li>
+                        <li class="sectionSkills__list__item">React.js</li>
+                    </ul>
+                </div>
+
+            </div> 
+    
+        </section>
+
+        <section id="CONTACT" class="sectionContact">
+                <h2 class="sectionContact__header">CONTACT</h2>
+                <div class="sectionContact__container">
+                    <div class="sectionContact__github">
+                        <p class= "sectionContact__paragraph">Check out my projects on Github:</p> 
+                        <a href="https://github.com/colourofmoonlight" target="_blank"><img src="/images/github-icon.png" class="sectionContact__githubIcon"></a> 
+                    </div>
+                    <div class="sectionContact__mail">
+                        <p class="sectionContact__paragraph">E-mail:</p>
+                        <p class="sectionContact__paragraph">korneliacyganik@gmail.com</p> 
+                    </div>
+                    <div class="sectionContact__media">
+                        <a href="https://www.instagram.com/colour.of.moonlight/?hl=pl" target="_blank"><img src="/images/instagram-icon.png" class="sectionContact__icon"></a>
+                        <a href="https://www.facebook.com/panikjur" target="_blank"><img src="/images/facebook-icon.png" class="sectionContact__icon"></a>
+                    </div>
+                        
+                </div>
+        </section>
 
     </main>
 
     <footer>
-
+        <p class="footer__copyRight">Copyright © 2020 Kornelia Cyganik</p>
     </footer>
 
 </body>

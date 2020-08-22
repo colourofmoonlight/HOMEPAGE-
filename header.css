@@ -1,6 +1,7 @@
 .header {
-    margin: 100px 40px;
-    text-align: right;
+    margin: 80px 40px;
+    text-align: center;
+    justify-content: center;
 }
 
 .header__name {
