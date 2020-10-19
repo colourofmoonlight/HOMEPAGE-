@@ -2,8 +2,9 @@
     font-family: 'Staatliches', cursive;
     color: #fafafa;
     line-height: 2;
-    margin: 70px; 
-    max-width: 90%; 
+    margin: 70px auto; 
+    max-width: 800px;
+    width: 100%; 
 }
 
 .sectionAbout__container {
